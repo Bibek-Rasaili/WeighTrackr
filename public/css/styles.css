@@ -24,14 +24,23 @@ h3 {
   background-color: #02AFEA;
 
   text-align: center;
+
 }
 
 .sItem {
-  padding: 2% 0;
+  padding: 2.5% 0;
   background-color: #02EFEA;
 
-  border: solid 1px black;
+  /* border: solid 1px black; */
+}
 
+.sItem:hover{
+  background-color: #03EFAE;
+}
+
+
+.sideText {
+  font-size: 1.5rem;
 }
 
 @media screen and (max-width:890px) {
