@@ -3,6 +3,11 @@ body {
 
   padding: 0;
   margin: 0;
+
+}
+
+h3 {
+  margin: 0;
 }
 
 .container {
@@ -17,4 +22,26 @@ body {
   width: 18%;
   height: 100%;
   background-color: #02AFEA;
+
+  text-align: center;
+}
+
+.sItem {
+  padding: 2% 0;
+  background-color: #02EFEA;
+
+  border: solid 1px black;
+
+}
+
+@media screen and (max-width:890px) {
+  .container {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width:480px) {
+  .container {
+    width: 98%;
+  }
 }
