@@ -17,6 +17,7 @@ div.sItem a {
 section {
   display: inline-block;
   width: 80%;
+/*  */
 }
 
 .active {
@@ -39,7 +40,7 @@ section {
   background-color: #02AFEA;
 
   text-align: center;
-
+  float:left; /* float added to level the sidebar with mainContent*/
 }
 
 .sItem {
