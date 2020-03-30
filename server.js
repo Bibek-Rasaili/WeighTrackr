@@ -12,6 +12,9 @@ app.get("/", function(req, res){
   res.render("home");
 });
 
+app.get("/addFood", function(req, res){
+  res.render("addConsumable");
+});
 
 
 
