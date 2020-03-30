@@ -9,9 +9,18 @@ h3 {
   margin: 0;
 }
 
+div.sItem a {
+  text-decoration: none;
+  color: inherit;
+}
+
 section {
   display: inline-block;
   width: 80%;
+}
+
+.active {
+  background-color: #03EFAE ;
 }
 
 .container {
