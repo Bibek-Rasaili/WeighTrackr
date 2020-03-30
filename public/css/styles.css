@@ -7,6 +7,8 @@ body {
 
 h3 {
   margin: 0;
+
+  font-weight: lighter;
 }
 
 div.sItem a {
@@ -63,7 +65,11 @@ section {
 .title {
   text-align: center;
 }
-
+/* mainContent - Content */
+.content {
+  width: 80%;
+  margin: auto;
+}
 
 /* Media Query */
 @media screen and (max-width:890px) {
