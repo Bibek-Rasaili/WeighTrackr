@@ -59,6 +59,12 @@ section {
   font-size: 1.5rem;
 }
 
+/* mainContent */
+.title {
+  text-align: center;
+}
+
+
 /* Media Query */
 @media screen and (max-width:890px) {
   .container {
