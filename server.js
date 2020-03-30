@@ -16,7 +16,25 @@ app.get("/addFood", function(req, res){
   res.render("addConsumable");
 });
 
+app.get("/workout", function(req, res){
+  res.render("");
+});
 
+app.get("/addExercise", function(req, res){
+  res.render();
+});
+
+app.get("/calendar", function(req, res){
+  res.render("");
+});
+
+app.get("/profile", function(req, res){
+  res.render("");
+});
+
+app.get("/info", function(req, res){
+  res.render("");
+});
 
 app.listen(3000, function(){
   console.log("Server is running on port 3000.");
