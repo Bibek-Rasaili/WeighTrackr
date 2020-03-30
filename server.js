@@ -20,8 +20,8 @@ app.get("/workout", function(req, res){
   res.render("");
 });
 
-app.get("/addExercise", function(req, res){
-  res.render();
+app.get("/addWorkout", function(req, res){
+  res.render("addWorkout");
 });
 
 app.get("/calendar", function(req, res){
