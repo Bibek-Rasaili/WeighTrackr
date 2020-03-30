@@ -17,7 +17,7 @@ app.get("/addFood", function(req, res){
 });
 
 app.get("/workout", function(req, res){
-  res.render("");
+  res.render("workout");
 });
 
 app.get("/addWorkout", function(req, res){
@@ -25,15 +25,15 @@ app.get("/addWorkout", function(req, res){
 });
 
 app.get("/calendar", function(req, res){
-  res.render("");
+  res.render("calendar");
 });
 
 app.get("/profile", function(req, res){
-  res.render("");
+  res.render("profile");
 });
 
 app.get("/info", function(req, res){
-  res.render("");
+  res.render("info");
 });
 
 app.listen(3000, function(){
